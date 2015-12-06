@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 指定Struts2配置文件的DTD信息 -->
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+	"http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<!-- Struts2配置文件的根元素 -->
+<struts>
+	<!-- 配置了系列常量 -->
+    <package name="default" namespace="/" extends="struts-default"> 
+    <interceptors>
+    <interceptor name="loginInterceptor" 
+    class="cn.edu.xmu.saluta.artweb.interceptor.LoginInterceptor">
+    </interceptor>
+    </interceptors>    
+        <!--定义全局Result-->   
+        <global-results>  
+            <result name="login">/login.jsp</result>
+        </global-results> 
+     <!-- 用户登录配置 -->
+        <action name="loginAction" class="cn.edu.xmu.saluta.artweb.action.LoginAction">
+            <result name="success">/index.jsp</result>                  
+        </action>
+        <!--用户注册配置 -->
+        <action name="registerAction" class="cn.edu.xmu.saluta.artweb.action.RegisterAction">
+            <result name="input">/userregister.jsp</result>          
+        </action>
+        <!-- 退出配置 -->
+        <action name="logoutAction" class="cn.edu.xmu.saluta.artweb.action.LogoutAction">
+            <result name="success">/index.jsp</result>
+        </action>
+    </package>
+    
+</struts>

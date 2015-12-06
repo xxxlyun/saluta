@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+#InviteWindow{text-align:left;position:absolute;z-index:8889;font-size:12px;top:50px;left:10px;width:440px;height:160px;visibility:hidden;background:transparent url(http://st.live800.com/live800/chatClient/invite/theme/18/images/invite_bg.gif) no-repeat 0 0;}
+#invite_title{height:24px;padding:4px 0 0 0;color:#fff;text-indent:48px;cursor:move;letter-spacing:8px;}
+#invite_text{line-height:14px;padding:13px 20px 0 130px;height:80px;overflow:hidden;color:#fff;}
+#invite_text p{padding:4px 0 0 0;margin:0;text-indent:24px;color:#fff;}
+#invite_btn{position:absolute;right:30px;bottom:14px;}
+#invite_btn button{width:65px;margin:0 5px;height:26px;line-height:26px;font-size:12px;font-weight:bold;text-align:center;border:none;background:url(http://st8.live800.com/live800/chatClient/invite/theme/18/images/invite_bt.gif);cursor:hand;color:#fff;}
+#invite_btn .accept{background:url(http://st8.live800.com/live800/chatClient/invite/theme/18/images/invite_bt.gif) no-repeat 0 0;}
+#invite_btn .cancel{background:url(http://st8.live800.com/live800/chatClient/invite/theme/18/images/invite_bt.gif) no-repeat 0 0;}
+#previewTr #InviteWindow{position:relative;visibility:visible;top:0;left:0;}
+#previewTr #pre_invite_title{height:27px;padding:11px 0 0 0;text-indent:28px;color:#000;cursor:default;letter-spacing:8px;}
+div.hidden *{display:none;}

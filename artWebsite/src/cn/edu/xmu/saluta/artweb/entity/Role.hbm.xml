@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2012-11-22 22:11:50 by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+<!-- 每个class对应一个持久化对象 -->
+    <class name="cn.edu.xmu.saluta.artweb.entity.Role" table="role" catalog="art">
+        <id name="role_id" type="int">
+            <column name="role_id" />
+            <generator class="identity" />
+        </id>
+        <property name="role_name" type="string">
+            <column name="role_name" />
+        </property>
+        <bag name="userList" order-by="uid desc">
+			<key>
+				<column name="role_id" not-null="true" />
+			</key>
+			<one-to-many class="cn.edu.xmu.saluta.artweb.entity.User" />
+		</bag>
+    </class>
+</hibernate-mapping>

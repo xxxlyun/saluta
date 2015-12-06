@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+/*--切图 赵蒙蒙 qq:1058891309-*/
+/********************20151106***/
+.xxg-ctop{ width:1200px; overflow:hidden;}
+.xxg-gdzc{ border:1px solid #eaeaea; width:888px; height:198px; padding:10px; display:inline-block ;margin-bottom:29px; position:relative;}
+.xxg-gdzc:hover{ border:1px solid #d31f31;}
+.xxg-gdzc:hover .xxg-bg{ display:inline-block; bottom:-23px; left:130px; position:absolute}
+.xxg-bg{ background:url(../../img/Paimai_v4/images/xxg_hover.png) no-repeat center center; width:663px; height:32px}
+.xxg-gdzc .xxg-gdzc-img{ width:620px; height:200px; overflow:hidden; position:relative; float:left}
+.xxg-gdzc .xxg-gdzc-img a{ height:200px; position:absolute; left: -45%; }
+.xxg-gdzc .xxg-gdzc-img a  img{ height: 220px;width: auto;}
+.xxg-gdzc .xxg-gdzc-text{ width:155px; height:60px; line-height:30px; padding:15px 0px; }
+.xxg-gdzc .xxg-gdzc-text a{ font-size:18px; color:#333;}
+.xxg-gdzc .xxg-gdzc-text a:hover{ color:#d31f31}
+.xxg-gdzc  .xxg-gdzc-textright { }
+.xxg-gdzc .xxg-gdzc-textright li { color:#666; font-size:12px; font-family:Arial, Helvetica, sans-serif; text-indent:20px; float:left;color:#999;/* font-family:'宋体';*/  }
+.xxg-gdzc .xxg-gdzc-textright li span{ color:#d31f31; font-size:14px; margin-right:4px;}
+.xxg-gdzc .xxg-gdzc-textright .cj{background:url(../../img/Paimai_v4/images/icon_pml_01.gif) left center no-repeat;}
+.xxg-gdzc .xxg-gdzc-textright .wg{background:url(../../img/Paimai_v4/images/icon_pml_02.gif) left center no-repeat; margin-right:24px;}
+.xxg-gdzc .xxg-gdzc-textright .pp{background:url(../../img/Paimai_v4/images/icon_pml_03.gif) left center no-repeat;}
+.xxg-gdzc-djs { display:inline-block; width:100%; height:70px; margin-bottom:15px;}
+.xxg-gdzc-djs .yomibox2{height:15px;  float:left; margin-top:-10px;}
+.xxg-gdzc-djs .yomi{ width:auto; margin-top: 10px;}
+.xxg-gdzc-djs .yomi li{ height:15px; font-size: 24px;  float:left;line-height:35px; font-family: "微软雅黑"; width:26px; font-weight:normal;padding:0px; border:none; color:#d31f31}
+.xxg-gdzc-djs .yomi li.split{ font-size: 14px; font-weight:normal;line-height:35px; padding: 0 4px; text-align: center; color:#777777}
+.xxg-gdzc-djs .yomi li:hover,.xxg-gdzc-djs .yomi li.split{ border:none; padding:0px}
+.xxg-gdzc-djs .xxg-gdzc-djs-top{  color:#777777; margin-top:10px; font-size:14px;}
+.xxg-gdzc-right{ float:right; width:242px; height:200px;  position:relative}
+.xxg-gdzc .xxg-gdzc-right .xxg-gdzc-cj{ width:75px; height:78px; background:#d31f31; position:absolute; right:-10px; top:-10px; color:#fff; overflow:hidden; text-align:center; font-size:14px}
+.xxg-gdzc .xxg-gdzc-right .xxg-gdzc-cj p{ text-align:center; font-size:30px; margin-top:6px;}
+/*******/
+.header{ height:50px; background:#fff; display:inline-block; width:100%; padding:30px 0px;}
+.xxg-zc-top{ width:224px; height:296px; float:right; position:relative; top:50px;}
+.xg-clock{ background:url(../../img/Paimai_v4/images/xg_01.png) no-repeat; width:51px; height:36px; position:absolute; right:20px; top:5px;}
+.list-banner-lefttop .list-b-lc span,.list-banner-lefttop .list-b-ld span,.list-banner-lefttop .list-b-lr span{ font-size:18px; color:#333333; margin-right:2px;}
+.zc_top li .pinfo .cj p{text-align:center; font-size:30px; margin-top:18px; margin-bottom:5px;}
+.zc_top li:hover,.list-zc li:hover,.list-jptm li:hover{ border:1px solid #d31f31}
+.list-zc li .pinfo .cj p{text-align:center; font-size:30px; margin-top:18px; margin-bottom:5px;}
+.xg-over{ font-size:24px; color:#999999; margin-top:10px; float:left}
+.zc_top li .pinfo .grey-bg{ background:#b9b7b7;}
+
+/*即将开拍*/
+.list-zc li .pinfo .cj1{ width:75px; height:74px; background:#008160; position:absolute; right:-10px; top:-30px; color:#fff; overflow:hidden; text-align:center; font-size:14px}/*20151108*/
+.zc_top li .pinfo .cj1 p{text-align:center; font-size:30px; margin-top:18px; margin-bottom:5px;}
+.zc_top li .pinfo .cj1{ width:75px; height:74px; background:#008160; position:absolute; right:-10px; top:-30px; color:#fff; overflow:hidden; text-align:center; font-size:14px}
+.list-zc li .pinfo .cj1 p{text-align:center; font-size:30px; margin-top:18px; margin-bottom:5px;}
+.green{color:#008160}
+.list-zc .list-dqj .green{color:#008160}
+.list-jptm .list-dqj .green{color:#008160}
+.zc_top .list-dqj .green{color:#008160}
+
+.list-jptm li .pinfo .cj1{ width:75px; height:74px; background:#008160; position:absolute; right:-30px; top:-30px; color:#fff; overflow:hidden; text-align:center; font-size:14px}
+.list-jptm li .pinfo .cj1 p{text-align:center; font-size:30px; margin-top:18px; margin-bottom:5px;}
+
+
+.list-timegreen{ width:177px; height:64px; display:inline-block; background: #008160; color:#fff; padding:10px; font-size:14px}
+.list-timegreen .yomibox2{height:15px; }
+.list-timegreen .yomi{ width:auto; margin-top: 10px;}
+.list-timegreen .yomi li{ height:15px; font- size: 14px;  float:left;line-height:35px; font-family: "微软雅黑"; width:20px; margin:0px 3px 0px 2px; color:#fff; font-size:24px;}
+.list-timegreen .yomi li.split{ font-size: 14px; font-weight:bold;line-height:35px; text-align: center; color:#fff; width:10px; padding:0px 0px 0px 4px }
+
+/**************20151117 start****/
+.museum-xtj .museum-banner{ width: 100%;height: 394px;}
+.museum-xtj .museum-banner .list-bannerimg { position:absolute; margin-left:-1000px; left:50%;}
+.museum-xtj .museum-banner .list-bannerimg img{ height:394px; width:100%;}
+
+.museum-xtj .xxg-gdzc{ border:1px solid #eaeaea; width:888px; height:198px; padding:10px; display:inline-block ;margin-bottom:29px; position:relative; background: #fff;}
+.museum-xtj .xxg-gdzc:hover{ border:1px solid #d31f31;}
+.museum-xtj .xxg-gdzc:hover .xxg-bg{ display:inline-block; bottom:-23px; left:130px; position:absolute}
+.museum-xtj .xxg-bg{ background:url(../../img/Paimai_v4/images/xxg_hover.png) no-repeat center center; width:663px; height:32px}
+.museum-xtj .xxg-gdzc .xxg-gdzc-img{ width:620px; height:200px; overflow:hidden; position:relative; float:left}
+.museum-xtj .xxg-gdzc .xxg-gdzc-img a{ height:200px; position:absolute; left: -45%; }
+.museum-xtj .xxg-gdzc .xxg-gdzc-img a  img{ height: 220px;width: auto;}
+.museum-xtj .xxg-gdzc .xxg-gdzc-text{ width:155px; height:60px; line-height:30px; padding:15px 0px; }
+.museum-xtj .xxg-gdzc .xxg-gdzc-text a{ font-size:18px; color:#333;}
+.museum-xtj .xxg-gdzc .xxg-gdzc-text a:hover{ color:#d31f31}
+.museum-xtj .xxg-gdzc .xxg-gdzc-textright { }
+.museum-xtj .xxg-gdzc .xxg-gdzc-textright li { color:#666; font-size:12px; font-family:Arial, Helvetica, sans-serif; text-indent:20px; float:left;color:#999;/* font-family:'宋体';*/  }
+.museum-xtj .xxg-gdzc .xxg-gdzc-textright li span{ color:#d31f31; font-size:14px; margin-right:4px;}
+.museum-xtj .xxg-gdzc .xxg-gdzc-textright .cj{background:url(../../img/Paimai_v4/images/icon_pml_01.gif) left center no-repeat;}
+.museum-xtj .xxg-gdzc .xxg-gdzc-textright .wg{background:url(../../img/Paimai_v4/images/icon_pml_02.gif) left center no-repeat; margin-right:24px;}
+.museum-xtj .xxg-gdzc .xxg-gdzc-textright .pp{background:url(../../img/Paimai_v4/images/icon_pml_03.gif) left center no-repeat;}
+.museum-xtj .xxg-gdzc-djs { display:inline-block; width:100%; height:70px; margin-bottom:15px;}
+.museum-xtj .xxg-gdzc-djs .jieshu{ margin-top:24px;font-size:14px;color:#999}
+.museum-xtj .xxg-gdzc-djs .yomibox2{height:15px;  float:left; margin-top:-10px;}
+.museum-xtj .xxg-gdzc-djs .yomi{ width:auto; margin-top: 10px;}
+.museum-xtj .xxg-gdzc-djs .yomi li{ height:15px; font-size: 24px;  float:left;line-height:35px; font-family: "微软雅黑"; width:26px; font-weight:normal;padding:0px; border:none; color:#d31f31}
+.museum-xtj .xxg-gdzc-djs .yomi li.split{ font-size: 14px; font-weight:normal;line-height:35px; padding: 0 4px; text-align: center; color:#777777}
+.museum-xtj .xxg-gdzc-djs .yomi li:hover,.museum-xtj .xxg-gdzc-djs .yomi li.split{ border:none; padding:0px}
+.museum-xtj .xxg-gdzc-djs .xxg-gdzc-djs-top{  color:#777777; margin-top:10px; font-size:14px;}
+.museum-xtj .xxg-gdzc-right{ float:right; width:242px; height:200px;  position:relative}
+.museum-xtj .xxg-gdzc .xxg-gdzc-right .xxg-gdzc-cj{ width:75px; height:78px; background:#d31f31; position:absolute; right:-10px; top:-10px; color:#fff; overflow:hidden; text-align:center; font-size:14px}
+.museum-xtj .xxg-gdzc .xxg-gdzc-right .xxg-gdzc-cj p{ text-align:center; font-size:30px; margin-top:6px;}
+.museum-xtj .museum-xtj-left{border-right:1px solid #eaeaea; width:932px;display:inline-block; float:left;}
+.museum-xtj .museum-banner .center{ position: relative;}
+.museum-xtj .museum-title{ background:#ffffff;position: absolute; left: 0px; top: -394px; width: 220px; height: 394px; overflow: hidden;}
+.museum-xtj .museum-title-top{ margin: 15px; color: #141414; font-size: 24px; border-bottom: 2px solid #141414; text-align:center; line-height:40px;}
+.museum-xtj .museum-title-down{ margin: 0px 15px;}
+.museum-xtj .museum-title-down a{ cursor: pointer; width: 63px; display: inline-block; line-height: 42px;text-align: center; font-size: 14px; color: #474545;}
+.museum-xtj .museum-title-down a:hover{color:#d31f31;}
+.museum-xtj .museum-title-down a.red{color:#d31f31;}
+
+.museum-xtj .container .rnav{width:240px;float:right;}
+.museum-xtj .container .rnav .ads{width: 240px;overflow: hidden;}
+.museum-xtj .container .rnav .ads img{width:240px; height:auto}
+.museum-xtj .container .rnav .tag{border:1px solid #eeeeee;padding:10px; font-family:'宋体'; height:138px; overflow:hidden; display:inline-block; width:218px; padding-bottom:30px; line-height:32px; background:#ffffff; margin-top:10px;}/*20151106*/
+.museum-xtj .container .rnav .tag a{color:#666666;font-size:14px;display:inline-block;padding:3px 5px;height:20px;line-height:20px;font-family:'宋体';}
+.museum-xtj .container .rnav .tag a:hover{color:#c40000;}
+.museum-xtj .container .rnav .sttl{height:25px;border-bottom:1px solid #7e7e7e;position:relative;margin-bottom:40px;}
+.museum-xtj .container .rnav .sttl span{background:#f8f8f8;display:block;width:auto;position:absolute;bottom:-20px;left:70px;height:40px;line-height:40px;padding:0px 10px;color:#333333;font-size:18px;}/*20151106*/
+.museum-xtj .container .rnav .sullist{padding:0px 30px;}
+.museum-xtj .container .rnav .sullist li{margin-bottom:20px;}
+.museum-xtj .container .rnav .sullist li a img{ width:180px;}
+.museum-xtj .container .rnav .sullist li a.at{font-size:14px;color:#333333;line-height:30px;height:30px;}
+.museum-xtj .container .rnav .sullist li .pinfo{height:20px;position:relative;line-height:20px;color:#999999;}
+.museum-xtj .container .rnav .sullist li .pinfo span{color:#d31f31;font-size:16px;}
+.museum-xtj .container .rnav .sullist li .pinfo .cj{position:absolute;right:0px;top:0px;width:auto;color:#999999;height:20px;line-height:20px;padding-left:20px;background:url(../../img/Paimai_v4/images/icon_pml_01.gif) left center no-repeat;}
+.museum-xtj .container .rnav .sullist li a img{ width:180px;height: auto;filter:brightness(0.7);-o-filter:brightness(0.7);-webkit-filter:brightness(0.7);-os-filter:brightness(0.7);}/*20151104*/
+.museum-xtj .container .rnav .sullist li a img:hover{ filter:brightness(1);-o-filter:brightness(1);-webkit-filter:brightness(1);-os-filter:brightness(1);} 
+.museum-xtj .container .rnav .sullist li a.at:hover{color:#d42f1e;}
+.museum-xtj .container .rnav .sullist li .pinfo .cj span{color: #d31f31; margin-right:2px; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
+.museum-xtj .museum-snav {width: 1198px;border: 1px solid #e7e7e5;background: #ffffff; margin-bottom: 30px;height:40px;line-height: 40px;}
+.museum-xtj .museum-snav a{font-size:14px;width: 160px;float: left; text-align: center; margin:0px;color:#403f3f;border-right: 1px solid #e7e7e5;font-family:'微软雅黑';  display: inline-block;cursor:pointer}
+.museum-xtj .museum-snav a.on{background-color: #e8e8e7;color: #d31f31;font-weight: bold; }
+.museum-xtj .container{padding: 30px 0px }
+/**************20151117 end****/
+/*20151118*/
+.museum-xtj .museum-banner .slideBoxx{ width:100%; height:394px; overflow:hidden; position:relative; margin-bottom:0px;}
+.museum-xtj .museum-banner .slideBoxx .hd{ height:12px; overflow:hidden; width:90px; position:absolute; right:50%; margin-right:-45px; display:inline; bottom:20px; z-index:1;}
+.museum-xtj .museum-banner .slideBoxx .hd ul{ overflow:hidden; zoom:1; float:left;  }
+.museum-xtj .museum-banner .slideBoxx .hd ul li{ float:left; margin-right:5px;  width:12px; height:12px; border-radius:4px; line-height:6px; background:#cbcbcb; cursor:pointer; }
+.museum-xtj .museum-banner .slideBoxx .hd ul li.on{ background:#711d1b; color:#fff; }
+.museum-xtj .museum-banner .slideBoxx .bd{ position:relative; width:100%; height:100%; z-index:0;background-color: #333;transition: all .5s ease-in .2s;}
+.museum-xtj .museum-banner .slideBoxx .bd li{ zoom:1; vertical-align:middle; }
+.museum-xtj .museum-banner .slideBoxx .bd li a{ position:absolute; width:2000px; margin-left:-1000px; left:50%; vertical-align:middle;}
+.museum-xtj .museum-banner .slideBoxx .bd li img{  display:block; margin:0 auto;}
+.museum-xtj .museum-banner .slideBoxx .prev,.museum-xtj .museum-banner .slideBoxx .next{ position:absolute; left:3%; top:50%; margin-top:-28px; display:block; width:38px; height:56px; background: url(../images/prev.jpg) -0px 0 no-repeat; filter:alpha(opacity=10);opacity:0.1;   }
+.museum-xtj .museum-banner .slideBoxx .next{ left:auto; right:3%; background-position:-96px 0px; }
+.museum-xtj .museum-banner .slideBoxx:hover .prev,.museum-xtj .museum-banner .slideBoxx:hover .next{ filter:alpha(opacity=80);opacity:0.8; }
+/**********20151118****/
